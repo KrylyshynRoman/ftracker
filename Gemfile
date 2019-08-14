@@ -12,6 +12,8 @@ gem 'devise-bootstrap-views'
 gem 'stock_quote'
 gem 'iex-ruby-client'
 gem 'font-awesome-rails'
+gem "mini_magick"
+gem 'gravatar_image_tag'
 # Use pg as the database for Active Record
 gem 'pg'
 # Use Puma as the app server

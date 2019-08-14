@@ -11,6 +11,7 @@
         <tbody>
           <% @users.each do |user| %>
             <tr>
+              <td><%= image_tag user_avatar(user, 20), class: "img-circle" %></td>
               <td><strong>Name:</strong> <%= user.full_name %></td>
               <td><strong>Email:</strong> <%= user.email %></td>
               <td><strong>Profile:</strong> <%= link_to "View Profile", user_path(user),
